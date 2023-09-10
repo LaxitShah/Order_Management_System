@@ -1,0 +1,38 @@
+{
+  "order": {
+    "orderNo": 123,
+    "customer": {
+      "id": 1,
+      "name": "Mayank",
+      "email": "mayank@gmail.com",
+      "billingAddress": {
+        "address": "A-23, Sector 2",
+        "city": "Ahmedabad",
+        "pin": "382007"
+      }
+    },
+    "orderItem": [
+      {
+        "productId": 27,
+        "price": 325,
+        "qty": 1
+      },
+      {
+        "productId": 19,
+        "price": 550,
+        "qty": 2
+      },
+      {
+        "productId": 21,
+        "price": 999,
+        "qty": 1
+      }
+    ],
+    "shippingAddress": {
+      "address": "F703, Sky Height, Gayathri Nagar",
+      "city": "Bangalore",
+      "pin": "560021"
+    },
+    "paymentTxnId": "abelif879rft"
+  }
+}
